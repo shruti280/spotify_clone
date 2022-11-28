@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header a img {
+  height: 35px;
+}
+
+main {
+  background-color: black;
+}
+
+.section-gap {
+  padding: 0 50px;
+}
+
+.part-1 {
+  background-image: url("/images/2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.part-1 .text-1 {
+  padding: 14px 0;
+  color: white;
+  font-size: 47px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.part-1 .box {
+  background-color: black;
+  height: 100px;
+}
+
+.sign-1 {
+  background-color: black;
+  height: 100px;
+}
+
+#myProgressBar {
+  width: 90vw;
+  color: black;
+  margin-top: 4%;
+  cursor: pointer;
+}
+
+#masterPlay {
+  cursor: pointer;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+input[type=range] {
+  height: 25px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  -webkit-box-shadow: 0px 0px 0px #000000;
+          box-shadow: 0px 0px 0px #000000;
+  background: white;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-box-shadow: 0px 0px 0px #000000;
+          box-shadow: 0px 0px 0px #000000;
+  border: 1px solid green;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: green;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: green;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: green;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid green;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #2497E3;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #2497E3;
+}
+
+.songItem {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin: 12px 0;
+  border-radius: 35px;
+}
+
+.songItem .list {
+  margin-top: 74px;
+}
+
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+}
+
+.songItem .timestamp {
+  margin: 0 23px;
+}
+
+.songItem .timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  color: white;
+  position: relative;
+  top: -4vw;
+}
+
+.songInfo img {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in;
+  transition: opacity 0.4s ease-in;
+}
+
+@media (min-width: 280px) and (max-width: 400px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 900px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  #myProgressBar {
+    margin-top: 9%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
